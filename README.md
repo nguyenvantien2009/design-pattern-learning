@@ -21,4 +21,10 @@ mvn exec:java -Pfactory-method  # factory-method profile was defined in pom.xml.
 # Also combine 2 command lines to 1 line 
 mvn compile && mvn exec:java -Pfactory-method
 ```
+## Abstract Factory
 
+Command run code:
+
+```shell
+mvn compile && mvn exec:java -Pabstract-factory
+```
