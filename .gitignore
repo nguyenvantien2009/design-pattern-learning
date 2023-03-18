@@ -24,6 +24,7 @@
 .classpath
 .project
 .settings
+target
 
 # DB Cache
 .DS_Store
