@@ -5,7 +5,7 @@ Learn Design Pattern Code in Java.
   - Singleton
   - Factory Method
   - Abstract Factory
-  - [Builder](src/main/java/despat/creational/builder/readme.md)
+  - [Builder](src/main/java/com/despat/creational/builder/readme.md)
   - Prototype
 - Structural Patters
 - Behavoral Patters
