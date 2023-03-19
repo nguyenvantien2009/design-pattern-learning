@@ -12,3 +12,11 @@ The `RectangleBuilder` class help define properties need to build `Rectangle` in
   }
   // ...
 ```
+
+## How to run?
+
+```shell
+// in root folder (folder of project)
+// Run compile and run java code after build based on profile.
+mvn compile && mvn exec:java -Pbuilder
+```
