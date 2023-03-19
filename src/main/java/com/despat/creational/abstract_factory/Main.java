@@ -11,9 +11,9 @@ public class Main {
     window.drawTextBox();
 
     System.out.println("Build beautiful window.");
-    Window beatifulWindow = new BeautifulWindow();
-    beatifulWindow.drawButton();
-    beatifulWindow.drawHeader();
-    beatifulWindow.drawTextBox();
+    Window beautifulWindow = new BeautifulWindow();
+    beautifulWindow.drawButton();
+    beautifulWindow.drawHeader();
+    beautifulWindow.drawTextBox();
   }
 }
