@@ -28,3 +28,10 @@ Command run code:
 ```shell
 mvn compile && mvn exec:java -Pabstract-factory
 ```
+## Builder
+
+Command run code:
+
+```shell
+mvn compile && mvn exec:java -Pbuilder
+```
