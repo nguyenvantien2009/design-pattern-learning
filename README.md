@@ -6,7 +6,7 @@ Learn Design Pattern Code in Java.
   - Factory Method
   - Abstract Factory
   - [Builder](src/main/java/com/despat/creational/builder/readme.md)
-  - Prototype
+  - [Prototype](src/main/java/com/despat/creational/prototype/readme.md)
 - Structural Patters
 - Behavoral Patters
 
@@ -34,4 +34,12 @@ Command run code:
 
 ```shell
 mvn compile && mvn exec:java -Pbuilder
+```
+
+## Prototype
+
+Command run code:
+
+```shell
+mvn compile && mvn exec:java -Pprototype
 ```
