@@ -4,7 +4,7 @@
 
 Code have implemented follow bellow chart.
 
-![./images/adapter-patter.jpeg]
+![](./images/adapter-patter.jpeg)
 
 Jump to root folder. Run bellow the block code. _Ensure maven have installed in your PC_. 
 
