@@ -25,17 +25,30 @@ Rectangle: + void draw()
 
 class DrawAPI
 <<inteface>> DrawAPI
+DrawAPI: + void drawCircle(x, y, radius)
+DrawAPI: + void drawRectangle(x, y, h, w)
 
-Pencil --|> DrawAPI: implements
-Pencil: + int size
-Pencil: + void drawCircle(x, y, radius)
-Pencil: + void drawRectangle(x, y, h, w)
+PencilCircleDraw --|> DrawAPI: implements
+PencilCircleDraw: + int size
+PencilCircleDraw: + void drawCircle(x, y, radius)
+PencilCircleDraw: + void drawRectangle(x, y, h, w)
 
-Brush --|> DrawAPI: implements
-Brush: + int size
-Brush: + int color
-Brush: + void drawCircle(x, y, radius)
-Brush: + void drawRectangle(x, y, h, w)
+PencilRectangleDraw --|> DrawAPI: implements
+PencilRectangleDraw: + int size
+PencilRectangleDraw: + void drawCircle(x, y, radius)
+PencilRectangleDraw: + void drawRectangle(x, y, h, w)
+
+BrushCircleDraw --|> DrawAPI: implements
+BrushCircleDraw: + int size
+BrushCircleDraw: + int color
+BrushCircleDraw: + void drawCircle(x, y, radius)
+BrushCircleDraw: + void drawRectangle(x, y, h, w)
+
+BrushRectangleDraw --|> DrawAPI: implements
+BrushRectangleDraw: + int size
+BrushRectangleDraw: + int color
+BrushRectangleDraw: + void drawCircle(x, y, radius)
+BrushRectangleDraw: + void drawRectangle(x, y, h, w)
 
 Shape --* DrawAPI
 ```
