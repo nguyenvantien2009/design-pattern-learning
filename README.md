@@ -9,6 +9,7 @@ Learn Design Pattern Code in Java.
   - [Prototype](src/main/java/com/despat/creational/prototype/readme.md)
 - Structural Patters
   - [Adapter](src/main/java/com/despat/structural/adapter/readme.md)
+  - [Bridge](src/main/java/com/despat/structural/bridge/readme.md)
 - Behavoral Patters
 
 ## Factory Method
@@ -51,4 +52,12 @@ Command run code:
 
 ```shell
 mvn compile && mvn exec:java -Padapter
+```
+
+## Bridge
+
+Command run code:
+
+```shell
+mvn compile && mvn exec:java -Pbridge
 ```
