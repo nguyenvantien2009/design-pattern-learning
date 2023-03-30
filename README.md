@@ -10,7 +10,7 @@ Learn Design Pattern Code in Java.
 - Structural Patters
   - [Adapter](src/main/java/com/despat/structural/adapter/readme.md)
   - [Bridge](src/main/java/com/despat/structural/bridge/readme.md)
-  - [Compositor][src/main/java/com/despat/structural/compositor/readme.md]
+  - [Compositor](src/main/java/com/despat/structural/compositor/readme.md)
 - Behavoral Patters
 
 ## Factory Method
