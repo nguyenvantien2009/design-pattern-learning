@@ -11,6 +11,7 @@ Learn Design Pattern Code in Java.
   - [Adapter](src/main/java/com/despat/structural/adapter/readme.md)
   - [Bridge](src/main/java/com/despat/structural/bridge/readme.md)
   - [Compositor](src/main/java/com/despat/structural/compositor/readme.md)
+  - [Decorator](src/main/java/com/despat/structural/decorator/readme.md)
 - Behavoral Patters
 
 ## Factory Method
@@ -69,4 +70,12 @@ Command run code:
 
 ```shell
 mvn compile && mvn exec:java -Pcompositor
+```
+
+## Decorator
+
+Command run code:
+
+```shell
+mvn compile && mvn exec:java -Pdecorator
 ```
