@@ -6,9 +6,9 @@ public class Main {
     System.out.println("Run code decorator pattern...");
 
     Beverage beverage = new Espresso();
-    CondimentDecorator decorator = new Mocha(beverage);
-    decorator = new Whip(beverage);
+    beverage = new Mocha(beverage);
+    beverage = new Whip(beverage);
   
-    System.out.println(decorator.getDescription() + " $" + decorator.getCost());
+    System.out.println(beverage.getDescription() + " $" + beverage.getCost());
   }
 }
