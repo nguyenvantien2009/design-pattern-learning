@@ -13,6 +13,7 @@ Learn Design Pattern Code in Java.
   - [Compositor](src/main/java/com/despat/structural/compositor/readme.md)
   - [Decorator](src/main/java/com/despat/structural/decorator/readme.md)
   - [Facade](src/main/java/com/despat/structural/facade/readme.md)
+  - [Flyweight](src/main/java/com/despat/structural/flyweight/readme.md)
 - Behavoral Patters
 
 ## Factory Method
