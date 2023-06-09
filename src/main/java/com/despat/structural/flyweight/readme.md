@@ -11,7 +11,7 @@ classDiagram
     Tree:-int y
     Tree:-TreeType type
     Tree:+Tree(int x, int y, Graphics g)
-    Tree:+draw(Graphics g)
+    Tree:+draw(Graphics g)  
 
     class TreeType
     TreeType:-String name
@@ -26,4 +26,6 @@ classDiagram
 
     TreeTypeFactory o--> TreeType
     Forest o--> Tree
+    Forest --> TreeTypeFactory
+    Tree --> TreeType
 ```
