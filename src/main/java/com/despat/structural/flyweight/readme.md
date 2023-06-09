@@ -1,4 +1,4 @@
-# Flyweigt
+# Flyweight
 
 ```mermaid
 classDiagram
